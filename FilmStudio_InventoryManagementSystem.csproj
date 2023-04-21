@@ -52,6 +52,37 @@
     <Compile Include="AdminView.Designer.cs">
       <DependentUpon>AdminView.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminViewForms\AdminAssetView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewForms\AdminAssetView.Designer.cs">
+      <DependentUpon>AdminAssetView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewForms\AdminCategoriesView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewForms\AdminCategoriesView.Designer.cs">
+      <DependentUpon>AdminCategoriesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewForms\AdminInventoryItemsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewForms\AdminInventoryItemsView.Designer.cs">
+      <DependentUpon>AdminInventoryItemsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewForms\AdminMajorsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewForms\AdminMajorsView.Designer.cs">
+      <DependentUpon>AdminMajorsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewForms\AdminUsersView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewForms\AdminUsersView.Designer.cs">
+      <DependentUpon>AdminUsersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBconnection.cs" />
     <Compile Include="Login&amp;Signup.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,8 +110,47 @@
     <Compile Include="UserView.Designer.cs">
       <DependentUpon>UserView.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserViewForms\UserAssetsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserViewForms\UserAssetsView.Designer.cs">
+      <DependentUpon>UserAssetsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserViewForms\UserCartView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserViewForms\UserCartView.Designer.cs">
+      <DependentUpon>UserCartView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserViewForms\UserInventoryItemsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserViewForms\UserInventoryItemsView.Designer.cs">
+      <DependentUpon>UserInventoryItemsView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserViewForms\UserIssuedItemsView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserViewForms\UserIssuedItemsView.Designer.cs">
+      <DependentUpon>UserIssuedItemsView.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AdminView.resx">
       <DependentUpon>AdminView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewForms\AdminAssetView.resx">
+      <DependentUpon>AdminAssetView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewForms\AdminCategoriesView.resx">
+      <DependentUpon>AdminCategoriesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewForms\AdminInventoryItemsView.resx">
+      <DependentUpon>AdminInventoryItemsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewForms\AdminMajorsView.resx">
+      <DependentUpon>AdminMajorsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewForms\AdminUsersView.resx">
+      <DependentUpon>AdminUsersView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login&amp;Signup.resx">
       <DependentUpon>Login&amp;Signup.cs</DependentUpon>
@@ -97,6 +167,9 @@
     </Compile>
     <EmbeddedResource Include="UserView.resx">
       <DependentUpon>UserView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserViewForms\UserInventoryItemsView.resx">
+      <DependentUpon>UserInventoryItemsView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -132,10 +205,7 @@
   <ItemGroup>
     <None Include="thumbnails\majors_Admin.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="AdminViewForms\" />
-    <Folder Include="UserViewForms\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="thumbnails\Issued_User.png" />
   </ItemGroup>
