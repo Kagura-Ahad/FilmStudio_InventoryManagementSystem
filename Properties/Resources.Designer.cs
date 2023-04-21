@@ -73,6 +73,16 @@ namespace FilmStudio_InventoryManagementSystem.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cart_User {
+            get {
+                object obj = ResourceManager.GetObject("Cart_User", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cat_Admin {
             get {
                 object obj = ResourceManager.GetObject("Cat_Admin", resourceCulture);
@@ -106,6 +116,16 @@ namespace FilmStudio_InventoryManagementSystem.Properties {
         internal static System.Drawing.Bitmap Inventory_Admin_Final {
             get {
                 object obj = ResourceManager.GetObject("Inventory_Admin_Final", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Issued_User {
+            get {
+                object obj = ResourceManager.GetObject("Issued_User", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

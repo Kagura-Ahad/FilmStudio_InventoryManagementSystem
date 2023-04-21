@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace FilmStudio_InventoryManagementSystem
 {
-    public partial class AdminView : Form
+    public partial class UserView : Form
     {
         //Fields
         private Button currentButton;
@@ -19,7 +19,7 @@ namespace FilmStudio_InventoryManagementSystem
         private Form activeForm;
 
         //constructor
-        public AdminView()
+        public UserView()
         {
             InitializeComponent();
             random = new Random();
@@ -29,14 +29,15 @@ namespace FilmStudio_InventoryManagementSystem
         private Color SelectThemeColor()
         {
             int index = random.Next(ThemeColor.ColorList.Count);
-            while (tempIndex ==  index)
+            while (tempIndex == index)
             {
-                index =  random.Next(ThemeColor.ColorList.Count);
+                index = random.Next(ThemeColor.ColorList.Count);
             }
             tempIndex = index;
             string color = ThemeColor.ColorList[index];
             return ColorTranslator.FromHtml(color);
         }
+
         private void ActivateButton(object btnSender)
         {
             if (btnSender != null)
@@ -67,36 +68,6 @@ namespace FilmStudio_InventoryManagementSystem
             }
         }
 
-        private void AdminView_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void buttonAssetView_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender);
-        }
-
-        private void buttonInventoryItemsView_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender);
-        }
-
-        private void buttonCategoriesView_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender);
-        }
-
-        private void buttonUsersView_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender);
-        }
-
-        private void buttonMajorsView_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender);
-        }
-
         private void OpenChildForm(Form childForm, object btnSender)
         {
             if (activeForm != null)
@@ -115,34 +86,24 @@ namespace FilmStudio_InventoryManagementSystem
             labelTitle.Text = childForm.Text;
         }
 
-        private void labelTitle_Click(object sender, EventArgs e)
+        private void buttonAssetView_Click(object sender, EventArgs e)
         {
-
+            ActivateButton(sender);
         }
 
-        private void panelMenu_Paint(object sender, PaintEventArgs e)
+        private void buttonInventoryItemsView_Click(object sender, EventArgs e)
         {
-
+            ActivateButton(sender);
         }
 
-        private void panelLogo_Paint(object sender, PaintEventArgs e)
+        private void buttonCartView_Click(object sender, EventArgs e)
         {
-
+            ActivateButton(sender);
         }
 
-        private void panelTitleBar_Paint(object sender, PaintEventArgs e)
+        private void buttonIssued_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panelDesktopPane_Paint(object sender, PaintEventArgs e)
-        {
-
+            ActivateButton(sender);
         }
     }
 }
