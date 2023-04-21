@@ -96,6 +96,24 @@ namespace FilmStudio_InventoryManagementSystem
             ActivateButton(sender);
         }
 
+        private void OpenChildForm(Form childForm, object btnSender)
+        {
+            if (ActiveForm != null)
+            {
+                ActiveForm.Close();
+            }
+            ActivateButton(btnSender);
+            //ActiveForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            this.panelDesktopPane.Controls.Add(childForm);
+            this.panelDesktopPane.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+            labelTitle.Text = childForm.Text;
+        }
+
         private void labelTitle_Click(object sender, EventArgs e)
         {
 

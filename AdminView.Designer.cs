@@ -38,6 +38,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panelTitleBar = new System.Windows.Forms.Panel();
             this.labelTitle = new System.Windows.Forms.Label();
+            this.panelDesktopPane = new System.Windows.Forms.Panel();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             this.panelTitleBar.SuspendLayout();
@@ -203,11 +204,20 @@
             this.labelTitle.Text = "HOME";
             this.labelTitle.Click += new System.EventHandler(this.labelTitle_Click);
             // 
+            // panelDesktopPane
+            // 
+            this.panelDesktopPane.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelDesktopPane.Location = new System.Drawing.Point(230, 80);
+            this.panelDesktopPane.Name = "panelDesktopPane";
+            this.panelDesktopPane.Size = new System.Drawing.Size(570, 370);
+            this.panelDesktopPane.TabIndex = 2;
+            // 
             // AdminView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panelDesktopPane);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMenu);
             this.Name = "AdminView";
@@ -234,6 +244,7 @@
         private System.Windows.Forms.Panel panelTitleBar;
         private System.Windows.Forms.Label labelTitle;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panelDesktopPane;
     }
 }
 

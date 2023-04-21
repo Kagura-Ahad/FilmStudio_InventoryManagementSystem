@@ -102,5 +102,9 @@
   <ItemGroup>
     <None Include="thumbnails\majors_Admin.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AdminViewForms\" />
+    <Folder Include="UserViewForms\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
