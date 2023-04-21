@@ -16,6 +16,7 @@ namespace FilmStudio_InventoryManagementSystem
         private Button currentButton;
         private Random random;
         private int tempIndex;
+        private Form activeForm;
 
         //constructor
         public AdminView()
@@ -98,12 +99,12 @@ namespace FilmStudio_InventoryManagementSystem
 
         private void OpenChildForm(Form childForm, object btnSender)
         {
-            if (ActiveForm != null)
+            if (activeForm != null)
             {
-                ActiveForm.Close();
+                activeForm.Close();
             }
             ActivateButton(btnSender);
-            //ActiveForm = childForm;
+            activeForm = childForm;
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
