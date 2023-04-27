@@ -35,7 +35,7 @@ namespace FilmStudio_InventoryManagementSystem.AdminViewForms
             dataGridView1.BackgroundColor = Color.White;
             dataGridView1.RowHeadersVisible = false;
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-        }
+        }//test
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
