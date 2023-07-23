@@ -19,7 +19,7 @@ namespace FilmStudio_InventoryManagementSystem.AdminViewForms
         public AdminAssetView()
         {
             InitializeComponent();
-            radioButton1.Checked = true;
+            all_assets_radio_button.Checked = true;
         }
 
         private void LoadAllAssets()
@@ -31,10 +31,10 @@ namespace FilmStudio_InventoryManagementSystem.AdminViewForms
             DataTable dt = new DataTable();
             da.Fill(dt);
             con.Close();
-            dataGridView1.DataSource = dt;
-            dataGridView1.BackgroundColor = Color.White;
-            dataGridView1.RowHeadersVisible = false;
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            asset_grid_view.DataSource = dt;
+            asset_grid_view.BackgroundColor = Color.White;
+            asset_grid_view.RowHeadersVisible = false;
+            asset_grid_view.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }//testahad
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -51,10 +51,10 @@ namespace FilmStudio_InventoryManagementSystem.AdminViewForms
             DataTable dt = new DataTable();
             da.Fill(dt);
             con.Close();
-            dataGridView1.DataSource = dt;
-            dataGridView1.BackgroundColor = Color.White;
-            dataGridView1.RowHeadersVisible = false;
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            asset_grid_view.DataSource = dt;
+            asset_grid_view.BackgroundColor = Color.White;
+            asset_grid_view.RowHeadersVisible = false;
+            asset_grid_view.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
@@ -67,10 +67,10 @@ namespace FilmStudio_InventoryManagementSystem.AdminViewForms
                 DataTable dt = new DataTable();
                 da.Fill(dt);
                 con.Close();
-                dataGridView1.DataSource = dt;
-                dataGridView1.BackgroundColor = Color.White;
-                dataGridView1.RowHeadersVisible = false;
-                dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                asset_grid_view.DataSource = dt;
+                asset_grid_view.BackgroundColor = Color.White;
+                asset_grid_view.RowHeadersVisible = false;
+                asset_grid_view.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             }
         }
     }   

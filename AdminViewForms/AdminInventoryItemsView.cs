@@ -30,10 +30,10 @@ namespace FilmStudio_InventoryManagementSystem.AdminViewForms
             DataTable dt = new DataTable();
             da.Fill(dt);
             con.Close();
-            dataGridView1.DataSource = dt;
-            dataGridView1.BackgroundColor = Color.White;
-            dataGridView1.RowHeadersVisible = false;
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            inventory_items_grid_view.DataSource = dt;
+            inventory_items_grid_view.BackgroundColor = Color.White;
+            inventory_items_grid_view.RowHeadersVisible = false;
+            inventory_items_grid_view.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
     }
 }

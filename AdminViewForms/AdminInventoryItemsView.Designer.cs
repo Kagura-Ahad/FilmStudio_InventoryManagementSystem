@@ -28,127 +28,127 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.delete_inventory_items_button = new System.Windows.Forms.Button();
+            this.update_inventory_items_button = new System.Windows.Forms.Button();
+            this.add_inventory_items_button = new System.Windows.Forms.Button();
+            this.inventory_group_box = new System.Windows.Forms.GroupBox();
+            this.checked_out_inventory_items_radio_button = new System.Windows.Forms.RadioButton();
+            this.available_inventory_items_radio_button = new System.Windows.Forms.RadioButton();
+            this.all_inventory_items_radio_button = new System.Windows.Forms.RadioButton();
+            this.inventory_items_grid_view = new System.Windows.Forms.DataGridView();
+            this.inventory_group_box.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.inventory_items_grid_view)).BeginInit();
             this.SuspendLayout();
             // 
-            // button3
+            // delete_inventory_items_button
             // 
-            this.button3.Location = new System.Drawing.Point(637, 112);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(93, 46);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.delete_inventory_items_button.Location = new System.Drawing.Point(637, 112);
+            this.delete_inventory_items_button.Name = "delete_inventory_items_button";
+            this.delete_inventory_items_button.Size = new System.Drawing.Size(93, 46);
+            this.delete_inventory_items_button.TabIndex = 12;
+            this.delete_inventory_items_button.Text = "Delete Inventory Items";
+            this.delete_inventory_items_button.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // update_inventory_items_button
             // 
-            this.button2.Location = new System.Drawing.Point(359, 112);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(93, 46);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.update_inventory_items_button.Location = new System.Drawing.Point(359, 112);
+            this.update_inventory_items_button.Name = "update_inventory_items_button";
+            this.update_inventory_items_button.Size = new System.Drawing.Size(93, 46);
+            this.update_inventory_items_button.TabIndex = 11;
+            this.update_inventory_items_button.Text = "Update Inventory Items";
+            this.update_inventory_items_button.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // add_inventory_items_button
             // 
-            this.button1.Location = new System.Drawing.Point(75, 112);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 46);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.add_inventory_items_button.Location = new System.Drawing.Point(75, 112);
+            this.add_inventory_items_button.Name = "add_inventory_items_button";
+            this.add_inventory_items_button.Size = new System.Drawing.Size(93, 46);
+            this.add_inventory_items_button.TabIndex = 10;
+            this.add_inventory_items_button.Text = "Add Inventory Items";
+            this.add_inventory_items_button.UseVisualStyleBackColor = true;
             // 
-            // groupBox1
+            // inventory_group_box
             // 
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Location = new System.Drawing.Point(308, 6);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 85);
-            this.groupBox1.TabIndex = 9;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.inventory_group_box.Controls.Add(this.checked_out_inventory_items_radio_button);
+            this.inventory_group_box.Controls.Add(this.available_inventory_items_radio_button);
+            this.inventory_group_box.Controls.Add(this.all_inventory_items_radio_button);
+            this.inventory_group_box.Location = new System.Drawing.Point(308, 6);
+            this.inventory_group_box.Name = "inventory_group_box";
+            this.inventory_group_box.Size = new System.Drawing.Size(200, 85);
+            this.inventory_group_box.TabIndex = 9;
+            this.inventory_group_box.TabStop = false;
+            this.inventory_group_box.Text = "Inventory View";
             // 
-            // radioButton2
+            // checked_out_inventory_items_radio_button
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(6, 40);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(85, 17);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.checked_out_inventory_items_radio_button.AutoSize = true;
+            this.checked_out_inventory_items_radio_button.Location = new System.Drawing.Point(6, 40);
+            this.checked_out_inventory_items_radio_button.Name = "checked_out_inventory_items_radio_button";
+            this.checked_out_inventory_items_radio_button.Size = new System.Drawing.Size(163, 17);
+            this.checked_out_inventory_items_radio_button.TabIndex = 2;
+            this.checked_out_inventory_items_radio_button.TabStop = true;
+            this.checked_out_inventory_items_radio_button.Text = "Checked Out Inventory Items";
+            this.checked_out_inventory_items_radio_button.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // available_inventory_items_radio_button
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(6, 63);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(85, 17);
-            this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.available_inventory_items_radio_button.AutoSize = true;
+            this.available_inventory_items_radio_button.Location = new System.Drawing.Point(6, 63);
+            this.available_inventory_items_radio_button.Name = "available_inventory_items_radio_button";
+            this.available_inventory_items_radio_button.Size = new System.Drawing.Size(143, 17);
+            this.available_inventory_items_radio_button.TabIndex = 3;
+            this.available_inventory_items_radio_button.TabStop = true;
+            this.available_inventory_items_radio_button.Text = "Available Inventory Items";
+            this.available_inventory_items_radio_button.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // all_inventory_items_radio_button
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(6, 19);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
-            this.radioButton1.TabIndex = 1;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.all_inventory_items_radio_button.AutoSize = true;
+            this.all_inventory_items_radio_button.Location = new System.Drawing.Point(6, 19);
+            this.all_inventory_items_radio_button.Name = "all_inventory_items_radio_button";
+            this.all_inventory_items_radio_button.Size = new System.Drawing.Size(111, 17);
+            this.all_inventory_items_radio_button.TabIndex = 1;
+            this.all_inventory_items_radio_button.TabStop = true;
+            this.all_inventory_items_radio_button.Text = "All Inventory Items";
+            this.all_inventory_items_radio_button.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // inventory_items_grid_view
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 181);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(800, 269);
-            this.dataGridView1.TabIndex = 8;
+            this.inventory_items_grid_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.inventory_items_grid_view.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.inventory_items_grid_view.Location = new System.Drawing.Point(0, 181);
+            this.inventory_items_grid_view.Name = "inventory_items_grid_view";
+            this.inventory_items_grid_view.Size = new System.Drawing.Size(800, 269);
+            this.inventory_items_grid_view.TabIndex = 8;
             // 
             // AdminInventoryItemsView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.delete_inventory_items_button);
+            this.Controls.Add(this.update_inventory_items_button);
+            this.Controls.Add(this.add_inventory_items_button);
+            this.Controls.Add(this.inventory_group_box);
+            this.Controls.Add(this.inventory_items_grid_view);
             this.Name = "AdminInventoryItemsView";
             this.Text = "AdminInventoryItemsView";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.inventory_group_box.ResumeLayout(false);
+            this.inventory_group_box.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.inventory_items_grid_view)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button delete_inventory_items_button;
+        private System.Windows.Forms.Button update_inventory_items_button;
+        private System.Windows.Forms.Button add_inventory_items_button;
+        private System.Windows.Forms.GroupBox inventory_group_box;
+        private System.Windows.Forms.RadioButton checked_out_inventory_items_radio_button;
+        private System.Windows.Forms.RadioButton available_inventory_items_radio_button;
+        private System.Windows.Forms.RadioButton all_inventory_items_radio_button;
+        private System.Windows.Forms.DataGridView inventory_items_grid_view;
     }
 }

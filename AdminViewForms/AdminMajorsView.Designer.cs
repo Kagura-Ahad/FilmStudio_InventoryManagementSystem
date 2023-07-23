@@ -28,70 +28,70 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.delete_majors_button = new System.Windows.Forms.Button();
+            this.edit_majors_button = new System.Windows.Forms.Button();
+            this.add_majors_button = new System.Windows.Forms.Button();
+            this.majors_grid_view = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.majors_grid_view)).BeginInit();
             this.SuspendLayout();
             // 
-            // button3
+            // delete_majors_button
             // 
-            this.button3.Location = new System.Drawing.Point(637, 56);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(93, 46);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.delete_majors_button.Location = new System.Drawing.Point(637, 56);
+            this.delete_majors_button.Name = "delete_majors_button";
+            this.delete_majors_button.Size = new System.Drawing.Size(93, 46);
+            this.delete_majors_button.TabIndex = 16;
+            this.delete_majors_button.Text = "Delete Majors";
+            this.delete_majors_button.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // edit_majors_button
             // 
-            this.button2.Location = new System.Drawing.Point(359, 56);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(93, 46);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.edit_majors_button.Location = new System.Drawing.Point(359, 56);
+            this.edit_majors_button.Name = "edit_majors_button";
+            this.edit_majors_button.Size = new System.Drawing.Size(93, 46);
+            this.edit_majors_button.TabIndex = 15;
+            this.edit_majors_button.Text = "Edit Majors";
+            this.edit_majors_button.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // add_majors_button
             // 
-            this.button1.Location = new System.Drawing.Point(75, 56);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 46);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.add_majors_button.Location = new System.Drawing.Point(75, 56);
+            this.add_majors_button.Name = "add_majors_button";
+            this.add_majors_button.Size = new System.Drawing.Size(93, 46);
+            this.add_majors_button.TabIndex = 14;
+            this.add_majors_button.Text = "Add Majors";
+            this.add_majors_button.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // majors_grid_view
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 181);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(800, 269);
-            this.dataGridView1.TabIndex = 13;
+            this.majors_grid_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.majors_grid_view.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.majors_grid_view.Location = new System.Drawing.Point(0, 181);
+            this.majors_grid_view.Name = "majors_grid_view";
+            this.majors_grid_view.Size = new System.Drawing.Size(800, 269);
+            this.majors_grid_view.TabIndex = 13;
             // 
             // AdminMajorsView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.delete_majors_button);
+            this.Controls.Add(this.edit_majors_button);
+            this.Controls.Add(this.add_majors_button);
+            this.Controls.Add(this.majors_grid_view);
             this.Name = "AdminMajorsView";
             this.Text = "AdminMajorsView";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.majors_grid_view)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button delete_majors_button;
+        private System.Windows.Forms.Button edit_majors_button;
+        private System.Windows.Forms.Button add_majors_button;
+        private System.Windows.Forms.DataGridView majors_grid_view;
     }
 }

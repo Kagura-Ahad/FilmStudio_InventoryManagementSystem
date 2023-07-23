@@ -168,8 +168,17 @@
     <EmbeddedResource Include="UserView.resx">
       <DependentUpon>UserView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserViewForms\UserAssetsView.resx">
+      <DependentUpon>UserAssetsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserViewForms\UserCartView.resx">
+      <DependentUpon>UserCartView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserViewForms\UserInventoryItemsView.resx">
       <DependentUpon>UserInventoryItemsView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserViewForms\UserIssuedItemsView.resx">
+      <DependentUpon>UserIssuedItemsView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

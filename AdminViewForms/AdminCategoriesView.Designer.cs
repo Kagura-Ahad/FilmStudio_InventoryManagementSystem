@@ -28,70 +28,70 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.delete_categories_button = new System.Windows.Forms.Button();
+            this.edit_categories_button = new System.Windows.Forms.Button();
+            this.add_categories_button = new System.Windows.Forms.Button();
+            this.categories_grid_view = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.categories_grid_view)).BeginInit();
             this.SuspendLayout();
             // 
-            // button3
+            // delete_categories_button
             // 
-            this.button3.Location = new System.Drawing.Point(637, 56);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(93, 46);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.delete_categories_button.Location = new System.Drawing.Point(637, 56);
+            this.delete_categories_button.Name = "delete_categories_button";
+            this.delete_categories_button.Size = new System.Drawing.Size(93, 46);
+            this.delete_categories_button.TabIndex = 16;
+            this.delete_categories_button.Text = "Delete Categories";
+            this.delete_categories_button.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // edit_categories_button
             // 
-            this.button2.Location = new System.Drawing.Point(359, 56);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(93, 46);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.edit_categories_button.Location = new System.Drawing.Point(359, 56);
+            this.edit_categories_button.Name = "edit_categories_button";
+            this.edit_categories_button.Size = new System.Drawing.Size(93, 46);
+            this.edit_categories_button.TabIndex = 15;
+            this.edit_categories_button.Text = "Edit Categories";
+            this.edit_categories_button.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // add_categories_button
             // 
-            this.button1.Location = new System.Drawing.Point(75, 56);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 46);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.add_categories_button.Location = new System.Drawing.Point(75, 56);
+            this.add_categories_button.Name = "add_categories_button";
+            this.add_categories_button.Size = new System.Drawing.Size(93, 46);
+            this.add_categories_button.TabIndex = 14;
+            this.add_categories_button.Text = "Add Categories";
+            this.add_categories_button.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // categories_grid_view
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 181);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(800, 269);
-            this.dataGridView1.TabIndex = 13;
+            this.categories_grid_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.categories_grid_view.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.categories_grid_view.Location = new System.Drawing.Point(0, 181);
+            this.categories_grid_view.Name = "categories_grid_view";
+            this.categories_grid_view.Size = new System.Drawing.Size(800, 269);
+            this.categories_grid_view.TabIndex = 13;
             // 
             // AdminCategoriesView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.delete_categories_button);
+            this.Controls.Add(this.edit_categories_button);
+            this.Controls.Add(this.add_categories_button);
+            this.Controls.Add(this.categories_grid_view);
             this.Name = "AdminCategoriesView";
             this.Text = "AdminCategoriesView";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.categories_grid_view)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button delete_categories_button;
+        private System.Windows.Forms.Button edit_categories_button;
+        private System.Windows.Forms.Button add_categories_button;
+        private System.Windows.Forms.DataGridView categories_grid_view;
     }
 }
