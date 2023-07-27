@@ -37,27 +37,27 @@
             // 
             // delete_user_button
             // 
-            this.delete_user_button.Location = new System.Drawing.Point(634, 75);
+            this.delete_user_button.Location = new System.Drawing.Point(329, 39);
             this.delete_user_button.Name = "delete_user_button";
-            this.delete_user_button.Size = new System.Drawing.Size(93, 46);
+            this.delete_user_button.Size = new System.Drawing.Size(85, 50);
             this.delete_user_button.TabIndex = 16;
             this.delete_user_button.Text = "Delete Users";
             this.delete_user_button.UseVisualStyleBackColor = true;
             // 
             // edit_user_button
             // 
-            this.edit_user_button.Location = new System.Drawing.Point(356, 75);
+            this.edit_user_button.Location = new System.Drawing.Point(238, 39);
             this.edit_user_button.Name = "edit_user_button";
-            this.edit_user_button.Size = new System.Drawing.Size(93, 46);
+            this.edit_user_button.Size = new System.Drawing.Size(85, 50);
             this.edit_user_button.TabIndex = 15;
             this.edit_user_button.Text = "Edit Users";
             this.edit_user_button.UseVisualStyleBackColor = true;
             // 
             // add_user_button
             // 
-            this.add_user_button.Location = new System.Drawing.Point(72, 75);
+            this.add_user_button.Location = new System.Drawing.Point(147, 39);
             this.add_user_button.Name = "add_user_button";
-            this.add_user_button.Size = new System.Drawing.Size(93, 46);
+            this.add_user_button.Size = new System.Drawing.Size(85, 50);
             this.add_user_button.TabIndex = 14;
             this.add_user_button.Text = "Add Users";
             this.add_user_button.UseVisualStyleBackColor = true;
@@ -66,16 +66,16 @@
             // 
             this.user_grid_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.user_grid_view.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.user_grid_view.Location = new System.Drawing.Point(0, 181);
+            this.user_grid_view.Location = new System.Drawing.Point(0, 131);
             this.user_grid_view.Name = "user_grid_view";
-            this.user_grid_view.Size = new System.Drawing.Size(800, 269);
+            this.user_grid_view.Size = new System.Drawing.Size(554, 200);
             this.user_grid_view.TabIndex = 13;
             // 
             // AdminUsersView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(554, 331);
             this.Controls.Add(this.delete_user_button);
             this.Controls.Add(this.edit_user_button);
             this.Controls.Add(this.add_user_button);

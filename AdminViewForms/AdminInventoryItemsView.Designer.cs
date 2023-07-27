@@ -42,7 +42,7 @@
             // 
             // delete_inventory_items_button
             // 
-            this.delete_inventory_items_button.Location = new System.Drawing.Point(637, 112);
+            this.delete_inventory_items_button.Location = new System.Drawing.Point(332, 112);
             this.delete_inventory_items_button.Name = "delete_inventory_items_button";
             this.delete_inventory_items_button.Size = new System.Drawing.Size(93, 46);
             this.delete_inventory_items_button.TabIndex = 12;
@@ -51,7 +51,7 @@
             // 
             // update_inventory_items_button
             // 
-            this.update_inventory_items_button.Location = new System.Drawing.Point(359, 112);
+            this.update_inventory_items_button.Location = new System.Drawing.Point(233, 112);
             this.update_inventory_items_button.Name = "update_inventory_items_button";
             this.update_inventory_items_button.Size = new System.Drawing.Size(93, 46);
             this.update_inventory_items_button.TabIndex = 11;
@@ -60,7 +60,7 @@
             // 
             // add_inventory_items_button
             // 
-            this.add_inventory_items_button.Location = new System.Drawing.Point(75, 112);
+            this.add_inventory_items_button.Location = new System.Drawing.Point(134, 112);
             this.add_inventory_items_button.Name = "add_inventory_items_button";
             this.add_inventory_items_button.Size = new System.Drawing.Size(93, 46);
             this.add_inventory_items_button.TabIndex = 10;
@@ -72,7 +72,7 @@
             this.inventory_group_box.Controls.Add(this.checked_out_inventory_items_radio_button);
             this.inventory_group_box.Controls.Add(this.available_inventory_items_radio_button);
             this.inventory_group_box.Controls.Add(this.all_inventory_items_radio_button);
-            this.inventory_group_box.Location = new System.Drawing.Point(308, 6);
+            this.inventory_group_box.Location = new System.Drawing.Point(166, 12);
             this.inventory_group_box.Name = "inventory_group_box";
             this.inventory_group_box.Size = new System.Drawing.Size(200, 85);
             this.inventory_group_box.TabIndex = 9;
@@ -116,16 +116,16 @@
             // 
             this.inventory_items_grid_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.inventory_items_grid_view.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.inventory_items_grid_view.Location = new System.Drawing.Point(0, 181);
+            this.inventory_items_grid_view.Location = new System.Drawing.Point(0, 131);
             this.inventory_items_grid_view.Name = "inventory_items_grid_view";
-            this.inventory_items_grid_view.Size = new System.Drawing.Size(800, 269);
+            this.inventory_items_grid_view.Size = new System.Drawing.Size(554, 200);
             this.inventory_items_grid_view.TabIndex = 8;
             // 
             // AdminInventoryItemsView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(554, 331);
             this.Controls.Add(this.delete_inventory_items_button);
             this.Controls.Add(this.update_inventory_items_button);
             this.Controls.Add(this.add_inventory_items_button);

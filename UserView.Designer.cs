@@ -50,6 +50,7 @@
             this.panelDesktopPane.Name = "panelDesktopPane";
             this.panelDesktopPane.Size = new System.Drawing.Size(570, 370);
             this.panelDesktopPane.TabIndex = 5;
+            this.panelDesktopPane.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDesktopPane_Paint);
             // 
             // panelLogo
             // 

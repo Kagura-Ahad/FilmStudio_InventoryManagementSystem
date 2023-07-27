@@ -88,22 +88,27 @@ namespace FilmStudio_InventoryManagementSystem
 
         private void buttonAssetView_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new UserViewForms.UserAssetsView(), sender);
         }
 
         private void buttonInventoryItemsView_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new UserViewForms.UserInventoryItemsView(), sender);
         }
 
         private void buttonCartView_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new UserViewForms.UserCartView(), sender);
         }
 
         private void buttonIssued_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new UserViewForms.UserIssuedItemsView(), sender);
+        }
+
+        private void panelDesktopPane_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

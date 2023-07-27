@@ -51,7 +51,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(360, 450);
+            this.panel1.Size = new System.Drawing.Size(250, 331);
             this.panel1.TabIndex = 0;
             // 
             // issued_inventory_items_grid_view
@@ -60,7 +60,7 @@
             this.issued_inventory_items_grid_view.Dock = System.Windows.Forms.DockStyle.Fill;
             this.issued_inventory_items_grid_view.Location = new System.Drawing.Point(0, 50);
             this.issued_inventory_items_grid_view.Name = "issued_inventory_items_grid_view";
-            this.issued_inventory_items_grid_view.Size = new System.Drawing.Size(360, 400);
+            this.issued_inventory_items_grid_view.Size = new System.Drawing.Size(250, 281);
             this.issued_inventory_items_grid_view.TabIndex = 1;
             // 
             // panel3
@@ -70,14 +70,14 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(360, 50);
+            this.panel3.Size = new System.Drawing.Size(250, 50);
             this.panel3.TabIndex = 0;
             // 
             // issued_inventory_items_label
             // 
             this.issued_inventory_items_label.AutoSize = true;
             this.issued_inventory_items_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.issued_inventory_items_label.Location = new System.Drawing.Point(57, 9);
+            this.issued_inventory_items_label.Location = new System.Drawing.Point(12, 9);
             this.issued_inventory_items_label.Name = "issued_inventory_items_label";
             this.issued_inventory_items_label.Size = new System.Drawing.Size(231, 26);
             this.issued_inventory_items_label.TabIndex = 0;
@@ -88,9 +88,9 @@
             this.panel2.Controls.Add(this.issued_assets_grid_view);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(440, 0);
+            this.panel2.Location = new System.Drawing.Point(304, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(360, 450);
+            this.panel2.Size = new System.Drawing.Size(250, 331);
             this.panel2.TabIndex = 1;
             // 
             // issued_assets_grid_view
@@ -99,7 +99,7 @@
             this.issued_assets_grid_view.Dock = System.Windows.Forms.DockStyle.Fill;
             this.issued_assets_grid_view.Location = new System.Drawing.Point(0, 50);
             this.issued_assets_grid_view.Name = "issued_assets_grid_view";
-            this.issued_assets_grid_view.Size = new System.Drawing.Size(360, 400);
+            this.issued_assets_grid_view.Size = new System.Drawing.Size(250, 281);
             this.issued_assets_grid_view.TabIndex = 2;
             // 
             // panel4
@@ -109,14 +109,14 @@
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(360, 50);
+            this.panel4.Size = new System.Drawing.Size(250, 50);
             this.panel4.TabIndex = 1;
             // 
             // issued_assets_label
             // 
             this.issued_assets_label.AutoSize = true;
             this.issued_assets_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.issued_assets_label.Location = new System.Drawing.Point(108, 9);
+            this.issued_assets_label.Location = new System.Drawing.Point(51, 9);
             this.issued_assets_label.Name = "issued_assets_label";
             this.issued_assets_label.Size = new System.Drawing.Size(148, 26);
             this.issued_assets_label.TabIndex = 1;
@@ -126,7 +126,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(554, 331);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "UserIssuedItemsView";

@@ -16,7 +16,7 @@ namespace FilmStudio_InventoryManagementSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AdminViewForms.AdminAssetView());
+            Application.Run(new UserView());
         }
         
     }

@@ -18,7 +18,7 @@ namespace FilmStudio_InventoryManagementSystem
         private int tempIndex;
         private Form activeForm;
 
-        //constructor
+        //Constructor
         public AdminView()
         {
             InitializeComponent();
@@ -74,27 +74,27 @@ namespace FilmStudio_InventoryManagementSystem
 
         private void buttonAssetView_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new AdminViewForms.AdminAssetView(), sender);
         }
 
         private void buttonInventoryItemsView_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new AdminViewForms.AdminInventoryItemsView(), sender);
         }
 
         private void buttonCategoriesView_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new AdminViewForms.AdminCategoriesView(), sender);
         }
 
         private void buttonUsersView_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new AdminViewForms.AdminUsersView(), sender);
         }
 
         private void buttonMajorsView_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new AdminViewForms.AdminMajorsView(), sender);
         }
 
         private void OpenChildForm(Form childForm, object btnSender)

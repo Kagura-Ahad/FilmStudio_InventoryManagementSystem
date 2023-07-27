@@ -44,9 +44,9 @@
             // 
             this.asset_grid_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.asset_grid_view.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.asset_grid_view.Location = new System.Drawing.Point(0, 181);
+            this.asset_grid_view.Location = new System.Drawing.Point(0, 131);
             this.asset_grid_view.Name = "asset_grid_view";
-            this.asset_grid_view.Size = new System.Drawing.Size(800, 269);
+            this.asset_grid_view.Size = new System.Drawing.Size(554, 200);
             this.asset_grid_view.TabIndex = 0;
             // 
             // all_assets_radio_button
@@ -90,7 +90,7 @@
             this.asset_group_box.Controls.Add(this.checked_out_assets_radio_button);
             this.asset_group_box.Controls.Add(this.available_assets_radio_button);
             this.asset_group_box.Controls.Add(this.all_assets_radio_button);
-            this.asset_group_box.Location = new System.Drawing.Point(308, 12);
+            this.asset_group_box.Location = new System.Drawing.Point(166, 12);
             this.asset_group_box.Name = "asset_group_box";
             this.asset_group_box.Size = new System.Drawing.Size(200, 85);
             this.asset_group_box.TabIndex = 4;
@@ -99,7 +99,7 @@
             // 
             // add_assets_button
             // 
-            this.add_assets_button.Location = new System.Drawing.Point(75, 118);
+            this.add_assets_button.Location = new System.Drawing.Point(134, 112);
             this.add_assets_button.Name = "add_assets_button";
             this.add_assets_button.Size = new System.Drawing.Size(93, 46);
             this.add_assets_button.TabIndex = 5;
@@ -108,7 +108,7 @@
             // 
             // update_assets_button
             // 
-            this.update_assets_button.Location = new System.Drawing.Point(359, 118);
+            this.update_assets_button.Location = new System.Drawing.Point(233, 112);
             this.update_assets_button.Name = "update_assets_button";
             this.update_assets_button.Size = new System.Drawing.Size(93, 46);
             this.update_assets_button.TabIndex = 6;
@@ -117,7 +117,7 @@
             // 
             // delete_assets_button
             // 
-            this.delete_assets_button.Location = new System.Drawing.Point(637, 118);
+            this.delete_assets_button.Location = new System.Drawing.Point(332, 112);
             this.delete_assets_button.Name = "delete_assets_button";
             this.delete_assets_button.Size = new System.Drawing.Size(93, 46);
             this.delete_assets_button.TabIndex = 7;
@@ -128,7 +128,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(554, 331);
             this.Controls.Add(this.delete_assets_button);
             this.Controls.Add(this.update_assets_button);
             this.Controls.Add(this.add_assets_button);

@@ -35,27 +35,29 @@
             this.add_to_cart_button = new System.Windows.Forms.Button();
             this.selected_asset_number_label = new System.Windows.Forms.Label();
             this.selected_asset_number_text_box = new System.Windows.Forms.TextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.available_assets_grid_view)).BeginInit();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Controls.Add(this.available_assets_header);
+            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(395, 0);
+            this.panel1.Location = new System.Drawing.Point(233, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(405, 450);
+            this.panel1.Size = new System.Drawing.Size(321, 331);
             this.panel1.TabIndex = 5;
             // 
             // available_assets_header
             // 
             this.available_assets_header.AutoSize = true;
             this.available_assets_header.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.available_assets_header.Location = new System.Drawing.Point(122, 9);
+            this.available_assets_header.Location = new System.Drawing.Point(80, 9);
             this.available_assets_header.Name = "available_assets_header";
             this.available_assets_header.Size = new System.Drawing.Size(173, 26);
             this.available_assets_header.TabIndex = 5;
@@ -63,11 +65,11 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.available_assets_grid_view);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 46);
+            this.panel2.Controls.Add(this.available_assets_header);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(405, 404);
+            this.panel2.Size = new System.Drawing.Size(321, 43);
             this.panel2.TabIndex = 1;
             // 
             // available_assets_grid_view
@@ -76,12 +78,12 @@
             this.available_assets_grid_view.Dock = System.Windows.Forms.DockStyle.Fill;
             this.available_assets_grid_view.Location = new System.Drawing.Point(0, 0);
             this.available_assets_grid_view.Name = "available_assets_grid_view";
-            this.available_assets_grid_view.Size = new System.Drawing.Size(405, 404);
+            this.available_assets_grid_view.Size = new System.Drawing.Size(321, 288);
             this.available_assets_grid_view.TabIndex = 0;
             // 
             // add_to_cart_button
             // 
-            this.add_to_cart_button.Location = new System.Drawing.Point(193, 221);
+            this.add_to_cart_button.Location = new System.Drawing.Point(127, 151);
             this.add_to_cart_button.Name = "add_to_cart_button";
             this.add_to_cart_button.Size = new System.Drawing.Size(100, 44);
             this.add_to_cart_button.TabIndex = 8;
@@ -91,7 +93,7 @@
             // selected_asset_number_label
             // 
             this.selected_asset_number_label.AutoSize = true;
-            this.selected_asset_number_label.Location = new System.Drawing.Point(66, 198);
+            this.selected_asset_number_label.Location = new System.Drawing.Point(0, 128);
             this.selected_asset_number_label.Name = "selected_asset_number_label";
             this.selected_asset_number_label.Size = new System.Drawing.Size(121, 13);
             this.selected_asset_number_label.TabIndex = 7;
@@ -99,16 +101,26 @@
             // 
             // selected_asset_number_text_box
             // 
-            this.selected_asset_number_text_box.Location = new System.Drawing.Point(193, 195);
+            this.selected_asset_number_text_box.Location = new System.Drawing.Point(127, 125);
             this.selected_asset_number_text_box.Name = "selected_asset_number_text_box";
             this.selected_asset_number_text_box.Size = new System.Drawing.Size(100, 20);
             this.selected_asset_number_text_box.TabIndex = 6;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.Control;
+            this.panel3.Controls.Add(this.available_assets_grid_view);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 43);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(321, 288);
+            this.panel3.TabIndex = 2;
             // 
             // UserAssetsView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(554, 331);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.add_to_cart_button);
             this.Controls.Add(this.selected_asset_number_label);
@@ -116,9 +128,10 @@
             this.Name = "UserAssetsView";
             this.Text = "UserAssetsView";
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.available_assets_grid_view)).EndInit();
+            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -133,5 +146,6 @@
         private System.Windows.Forms.Label selected_asset_number_label;
         private System.Windows.Forms.TextBox selected_asset_number_text_box;
         private System.Windows.Forms.DataGridView available_assets_grid_view;
+        private System.Windows.Forms.Panel panel3;
     }
 }

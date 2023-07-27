@@ -16,5 +16,15 @@ namespace FilmStudio_InventoryManagementSystem.UserViewForms
         {
             InitializeComponent();
         }
+
+        private void cart_asset_items_grid_view_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void cart_inventory_items_header_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
