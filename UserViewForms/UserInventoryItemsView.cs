@@ -29,9 +29,6 @@ namespace FilmStudio_InventoryManagementSystem.UserViewForms
         }
         private void load_all_available_inventory_items()
         {
-            selected_inventory_item_number_text_box.ReadOnly = true;
-            available_inventory_items_grid_view.ReadOnly = true;
-
             con.Open();
             string issuedAssetItems = "select [Name],Category,[Available Quantity] from [VIEW INVENTORY]";
             cm = new SqlCommand(issuedAssetItems, con);
@@ -43,6 +40,8 @@ namespace FilmStudio_InventoryManagementSystem.UserViewForms
             available_inventory_items_grid_view.BackgroundColor = Color.White;
             available_inventory_items_grid_view.RowHeadersVisible = false;
             available_inventory_items_grid_view.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            selected_inventory_item_number_text_box.ReadOnly = true;
+            available_inventory_items_grid_view.ReadOnly = true;
         }
 
         private void available_inventory_items_grid_view_CellContentClick(object sender, DataGridViewCellEventArgs e)
