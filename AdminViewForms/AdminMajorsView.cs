@@ -23,17 +23,17 @@ namespace FilmStudio_InventoryManagementSystem.AdminViewForms
         private void LoadAllMajors()
         {
             con.Open();
-            string sql = " select * from Users";
+            string sql = "SELECT MajorName AS Majors FROM Majors";
             cm = new SqlCommand(sql, con);
             SqlDataAdapter da = new SqlDataAdapter(cm);
             DataTable dt = new DataTable();
             da.Fill(dt);
             con.Close();
             majors_grid_view.DataSource = dt;
-            majors_grid_view.Columns[0].Visible = false;
             majors_grid_view.BackgroundColor = Color.White;
             majors_grid_view.RowHeadersVisible = false;
             majors_grid_view.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
+
     }
 }
