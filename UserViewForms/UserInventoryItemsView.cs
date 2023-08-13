@@ -21,6 +21,7 @@ namespace FilmStudio_InventoryManagementSystem.UserViewForms
         {
             InitializeComponent();
             load_all_available_inventory_items();
+            quantity_text_box.Text = "1";
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -30,7 +31,7 @@ namespace FilmStudio_InventoryManagementSystem.UserViewForms
         private void load_all_available_inventory_items()
         {
             con.Open();
-            string issuedAssetItems = "select [Name],Category,[Available Quantity] from [VIEW INVENTORY]";
+            string issuedAssetItems = "select ID,[Name],Category,[Available Quantity] from [VIEW INVENTORY]";
             cm = new SqlCommand(issuedAssetItems, con);
             SqlDataAdapter da = new SqlDataAdapter(cm);
             DataTable dt = new DataTable();
@@ -42,19 +43,20 @@ namespace FilmStudio_InventoryManagementSystem.UserViewForms
             available_inventory_items_grid_view.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             selected_inventory_item_number_text_box.ReadOnly = true;
             available_inventory_items_grid_view.ReadOnly = true;
+            available_inventory_items_grid_view.Columns[0].Visible = false;
         }
 
         private void available_inventory_items_grid_view_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             selected_inventory_item_number_text_box.Text = available_inventory_items_grid_view.Rows[e.RowIndex].Cells[0].Value.ToString();
-            temp = available_inventory_items_grid_view.Rows[e.RowIndex].Cells[2].Value.ToString();
+            temp = available_inventory_items_grid_view.Rows[e.RowIndex].Cells[3].Value.ToString();
         }
 
         private void add_to_cart_button_Click(object sender, EventArgs e)
         {
-            if (available_inventory_items_grid_view.CurrentRow == null)
+            if (string.IsNullOrEmpty(selected_inventory_item_number_text_box.Text))
             {
-                MessageBox.Show("Selection of inventory cannot be null!");
+                MessageBox.Show("Please select an inventory item and then click Add to Cart!");
             }
             else
             {

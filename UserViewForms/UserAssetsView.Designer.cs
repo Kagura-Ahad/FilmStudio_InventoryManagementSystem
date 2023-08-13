@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.available_assets_header = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.available_assets_grid_view = new System.Windows.Forms.DataGridView();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.available_assets_header = new System.Windows.Forms.Label();
             this.add_to_cart_button = new System.Windows.Forms.Button();
             this.selected_asset_number_label = new System.Windows.Forms.Label();
             this.selected_asset_number_text_box = new System.Windows.Forms.TextBox();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.available_assets_grid_view)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.available_assets_grid_view)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -53,15 +53,25 @@
             this.panel1.Size = new System.Drawing.Size(321, 331);
             this.panel1.TabIndex = 5;
             // 
-            // available_assets_header
+            // panel3
             // 
-            this.available_assets_header.AutoSize = true;
-            this.available_assets_header.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.available_assets_header.Location = new System.Drawing.Point(80, 9);
-            this.available_assets_header.Name = "available_assets_header";
-            this.available_assets_header.Size = new System.Drawing.Size(173, 26);
-            this.available_assets_header.TabIndex = 5;
-            this.available_assets_header.Text = "Available Assets";
+            this.panel3.BackColor = System.Drawing.SystemColors.Control;
+            this.panel3.Controls.Add(this.available_assets_grid_view);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 43);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(321, 288);
+            this.panel3.TabIndex = 2;
+            // 
+            // available_assets_grid_view
+            // 
+            this.available_assets_grid_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.available_assets_grid_view.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.available_assets_grid_view.Location = new System.Drawing.Point(0, 0);
+            this.available_assets_grid_view.Name = "available_assets_grid_view";
+            this.available_assets_grid_view.Size = new System.Drawing.Size(321, 288);
+            this.available_assets_grid_view.TabIndex = 0;
+            this.available_assets_grid_view.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.available_assets_grid_view_CellContentClick);
             // 
             // panel2
             // 
@@ -72,14 +82,15 @@
             this.panel2.Size = new System.Drawing.Size(321, 43);
             this.panel2.TabIndex = 1;
             // 
-            // available_assets_grid_view
+            // available_assets_header
             // 
-            this.available_assets_grid_view.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.available_assets_grid_view.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.available_assets_grid_view.Location = new System.Drawing.Point(0, 0);
-            this.available_assets_grid_view.Name = "available_assets_grid_view";
-            this.available_assets_grid_view.Size = new System.Drawing.Size(321, 288);
-            this.available_assets_grid_view.TabIndex = 0;
+            this.available_assets_header.AutoSize = true;
+            this.available_assets_header.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.available_assets_header.Location = new System.Drawing.Point(80, 9);
+            this.available_assets_header.Name = "available_assets_header";
+            this.available_assets_header.Size = new System.Drawing.Size(173, 26);
+            this.available_assets_header.TabIndex = 5;
+            this.available_assets_header.Text = "Available Assets";
             // 
             // add_to_cart_button
             // 
@@ -89,6 +100,7 @@
             this.add_to_cart_button.TabIndex = 8;
             this.add_to_cart_button.Text = "Add to cart";
             this.add_to_cart_button.UseVisualStyleBackColor = true;
+            this.add_to_cart_button.Click += new System.EventHandler(this.add_to_cart_button_Click);
             // 
             // selected_asset_number_label
             // 
@@ -106,16 +118,6 @@
             this.selected_asset_number_text_box.Size = new System.Drawing.Size(100, 20);
             this.selected_asset_number_text_box.TabIndex = 6;
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.Control;
-            this.panel3.Controls.Add(this.available_assets_grid_view);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 43);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(321, 288);
-            this.panel3.TabIndex = 2;
-            // 
             // UserAssetsView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -128,10 +130,10 @@
             this.Name = "UserAssetsView";
             this.Text = "UserAssetsView";
             this.panel1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.available_assets_grid_view)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.available_assets_grid_view)).EndInit();
-            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
