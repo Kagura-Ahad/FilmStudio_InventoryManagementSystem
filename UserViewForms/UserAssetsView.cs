@@ -20,7 +20,6 @@ namespace FilmStudio_InventoryManagementSystem.UserViewForms
         {
             InitializeComponent();
             LoadAllAssets();
-            selected_asset_number_text_box.Text = "1";
         }
 
         private void LoadAllAssets()

@@ -12,9 +12,10 @@ namespace FilmStudio_InventoryManagementSystem.AdminViewForms.UpdateForms
 {
     public partial class InventoryItemUPDATE : Form
     {
-        public InventoryItemUPDATE()
+        public InventoryItemUPDATE(string Name, string Description, string CategoryName, int QuantityinStock, int TotalQuantity)
         {
             InitializeComponent();
+
         }
     }
 }

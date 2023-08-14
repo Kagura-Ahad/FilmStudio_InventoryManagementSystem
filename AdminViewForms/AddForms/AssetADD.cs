@@ -13,11 +13,9 @@ namespace FilmStudio_InventoryManagementSystem.AdminViewForms.AddForms
     public partial class AssetADD : Form
     {
         private string receivedData;
-        public AssetADD(string data)
+        public AssetADD()
         {
             InitializeComponent();
-            name_textBox.Text = data;
-
         }
     }
 }
