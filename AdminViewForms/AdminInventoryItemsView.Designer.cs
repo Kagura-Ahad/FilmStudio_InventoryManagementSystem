@@ -48,6 +48,7 @@
             this.delete_inventory_items_button.TabIndex = 12;
             this.delete_inventory_items_button.Text = "Delete Inventory Items";
             this.delete_inventory_items_button.UseVisualStyleBackColor = true;
+            this.delete_inventory_items_button.Click += new System.EventHandler(this.delete_inventory_items_button_Click);
             // 
             // update_inventory_items_button
             // 
@@ -57,6 +58,7 @@
             this.update_inventory_items_button.TabIndex = 11;
             this.update_inventory_items_button.Text = "Update Inventory Items";
             this.update_inventory_items_button.UseVisualStyleBackColor = true;
+            this.update_inventory_items_button.Click += new System.EventHandler(this.update_inventory_items_button_Click);
             // 
             // add_inventory_items_button
             // 
@@ -66,6 +68,7 @@
             this.add_inventory_items_button.TabIndex = 10;
             this.add_inventory_items_button.Text = "Add Inventory Items";
             this.add_inventory_items_button.UseVisualStyleBackColor = true;
+            this.add_inventory_items_button.Click += new System.EventHandler(this.add_inventory_items_button_Click);
             // 
             // inventory_group_box
             // 
@@ -89,6 +92,7 @@
             this.checked_out_inventory_items_radio_button.TabStop = true;
             this.checked_out_inventory_items_radio_button.Text = "Checked Out Inventory Items";
             this.checked_out_inventory_items_radio_button.UseVisualStyleBackColor = true;
+            this.checked_out_inventory_items_radio_button.CheckedChanged += new System.EventHandler(this.checked_out_inventory_items_radio_button_CheckedChanged);
             // 
             // available_inventory_items_radio_button
             // 
@@ -100,6 +104,7 @@
             this.available_inventory_items_radio_button.TabStop = true;
             this.available_inventory_items_radio_button.Text = "Available Inventory Items";
             this.available_inventory_items_radio_button.UseVisualStyleBackColor = true;
+            this.available_inventory_items_radio_button.CheckedChanged += new System.EventHandler(this.available_inventory_items_radio_button_CheckedChanged);
             // 
             // all_inventory_items_radio_button
             // 
@@ -111,6 +116,7 @@
             this.all_inventory_items_radio_button.TabStop = true;
             this.all_inventory_items_radio_button.Text = "All Inventory Items";
             this.all_inventory_items_radio_button.UseVisualStyleBackColor = true;
+            this.all_inventory_items_radio_button.CheckedChanged += new System.EventHandler(this.all_inventory_items_radio_button_CheckedChanged);
             // 
             // inventory_items_grid_view
             // 

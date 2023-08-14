@@ -52,6 +52,36 @@
     <Compile Include="AdminView.Designer.cs">
       <DependentUpon>AdminView.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminViewForms\AddForms\AssetADD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewForms\AddForms\AssetADD.Designer.cs">
+      <DependentUpon>AssetADD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewForms\AddForms\CategoriesADD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewForms\AddForms\CategoriesADD.Designer.cs">
+      <DependentUpon>CategoriesADD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewForms\AddForms\InventoryItemADD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewForms\AddForms\InventoryItemADD.Designer.cs">
+      <DependentUpon>InventoryItemADD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewForms\AddForms\MajorsADD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewForms\AddForms\MajorsADD.Designer.cs">
+      <DependentUpon>MajorsADD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewForms\AddForms\UsersADD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewForms\AddForms\UsersADD.Designer.cs">
+      <DependentUpon>UsersADD.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminViewForms\AdminAssetView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +111,36 @@
     </Compile>
     <Compile Include="AdminViewForms\AdminUsersView.Designer.cs">
       <DependentUpon>AdminUsersView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewForms\UpdateForms\AssetUPDATE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewForms\UpdateForms\AssetUPDATE.Designer.cs">
+      <DependentUpon>AssetUPDATE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewForms\UpdateForms\CategoriesUPDATE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewForms\UpdateForms\CategoriesUPDATE.Designer.cs">
+      <DependentUpon>CategoriesUPDATE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewForms\UpdateForms\InventoryItemUPDATE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewForms\UpdateForms\InventoryItemUPDATE.Designer.cs">
+      <DependentUpon>InventoryItemUPDATE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewForms\UpdateForms\MajorsUPDATE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewForms\UpdateForms\MajorsUPDATE.Designer.cs">
+      <DependentUpon>MajorsUPDATE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminViewForms\UpdateForms\UsersUPDATE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminViewForms\UpdateForms\UsersUPDATE.Designer.cs">
+      <DependentUpon>UsersUPDATE.cs</DependentUpon>
     </Compile>
     <Compile Include="DBconnection.cs" />
     <Compile Include="Login&amp;Signup.cs">
@@ -137,6 +197,21 @@
     <EmbeddedResource Include="AdminView.resx">
       <DependentUpon>AdminView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewForms\AddForms\AssetADD.resx">
+      <DependentUpon>AssetADD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewForms\AddForms\CategoriesADD.resx">
+      <DependentUpon>CategoriesADD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewForms\AddForms\InventoryItemADD.resx">
+      <DependentUpon>InventoryItemADD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewForms\AddForms\MajorsADD.resx">
+      <DependentUpon>MajorsADD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewForms\AddForms\UsersADD.resx">
+      <DependentUpon>UsersADD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminViewForms\AdminAssetView.resx">
       <DependentUpon>AdminAssetView.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,6 +226,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminViewForms\AdminUsersView.resx">
       <DependentUpon>AdminUsersView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewForms\UpdateForms\AssetUPDATE.resx">
+      <DependentUpon>AssetUPDATE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewForms\UpdateForms\CategoriesUPDATE.resx">
+      <DependentUpon>CategoriesUPDATE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewForms\UpdateForms\InventoryItemUPDATE.resx">
+      <DependentUpon>InventoryItemUPDATE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewForms\UpdateForms\MajorsUPDATE.resx">
+      <DependentUpon>MajorsUPDATE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminViewForms\UpdateForms\UsersUPDATE.resx">
+      <DependentUpon>UsersUPDATE.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login&amp;Signup.resx">
       <DependentUpon>Login&amp;Signup.cs</DependentUpon>

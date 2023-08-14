@@ -35,7 +35,7 @@ namespace FilmStudio_InventoryManagementSystem.AdminViewForms
             asset_grid_view.BackgroundColor = Color.White;
             asset_grid_view.RowHeadersVisible = false;
             asset_grid_view.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-        }//testahad
+        }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
